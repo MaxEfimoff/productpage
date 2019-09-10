@@ -8,19 +8,223 @@
   <link rel="stylesheet" href="css/simplelightbox.min.css"> 
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Product page</title>
 </head>
-<body>
+<body id="home">
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">Product</h1>
+      <ul class="nav">
+        <li>
+          <a href="#home" id="login">Login/Register</a>
+        </li>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
+  <section class="section-a">
+    <div class="container">
+      <div>
+        <h1>Product description</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam optio facere at dolores doloremque labore dignissimos exercitationem aperiam voluptatibus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint doloremque beatae, commodi rem similique eligendi labore aperiam reprehenderit est ipsa in ut quo. Quibusdam dignissimos dicta, cum dolores eos ad veniam rem nostrum delectus aperiam provident architecto ipsa dolorem non.</p>
+        <a href="" class="btn">read more</a>
+      </div>
+      <img src="img/008.jpg" alt="">
+    </div>
+  </section>
+
+  <section class="section-b">
+    <div class="overlay">
+      <div class="section-b-inner">
+        <h3>Product features</h3>
+        <h2>Our product is fantastic</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt beatae, eaque quam omnis expedita magnam harum? Reiciendis praesentium, dicta sed laudantium architecto, non voluptatem aut eum possimus vitae quas ea nobis nam nisi? In quis sed exercitationem labore modi at neque dolores et quas? Error dolorum repellendus dignissimos eveniet nisi!</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-c">
+    <div class="container">
+      <img src="img/009.png" alt="" data-aos="fade-right">
+      <div data-aos="fade-left">
+        <h1>Product description</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam optio facere at dolores doloremque labore dignissimos exercitationem aperiam voluptatibus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum recusandae, magnam facere corporis sunt pariatur dicta. Eum, unde delectus iste laudantium corrupti excepturi veritatis praesentium ipsam neque voluptatum eveniet repudiandae error possimus tempore cupiditate quam accusantium, ea earum? Impedit, atque.</p>
+        <a href="" class="btn">read more</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-d">
+    <div class="overlay">
+      <div class="section-d-inner">
+        <h3>Product features</h3>
+        <h2>Lifetime warranty</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi itaque odio perspiciatis amet tempore expedita neque asperiores aliquid quod? Voluptate illum natus asperiores temporibus accusantium ad similique aliquam, cum numquam quas quasi necessitatibus nulla ducimus!</p>
+      </div>
+    </div>
+  </section>
+
+    <section class="section-e">
+      <div class="container">
+        <div src="img/03.jpg" alt="" data-aos="fade-right">
+          <h1>Product description</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam optio facere at dolores doloremque labore dignissimos exercitationem aperiam voluptatibus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam optio facere at dolores doloremque labore dignissimos exercitationem aperiam voluptatibus.</p>
+          <a href="" class="btn">read more</a>
+        </div>
+        <img src="img/06.jpg" alt="" src="img/03.jpg" alt="" data-aos="fade-left">
+      </div>
+    </section>
+
+  <section class="section-f">
+    <div class="gallery">
+      <a href="img/007.jpg" class="big">
+        <img src="img/007.jpg" alt="">
+      </a>
+      <a href="img/002.jpg" class="big">
+        <img src="img/002.jpg" alt="">
+      </a>
+      <a href="img/005.jpg" class="big">
+        <img src="img/005.jpg" alt="">
+      </a>
+      <a href="img/08.jpg" class="big">
+        <img src="img/08.jpg" alt="">
+      </a>
+      <a href="img/004.jpg" class="big">
+        <img src="img/004.jpg" alt="">
+      </a>
+      <a href="img/006.jpg" class="big">
+        <img src="img/006.jpg" alt="">
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="section-footer">
+    <div class="container">
+      <div>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <a href="http://twitter.com">
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
+        <a href="http://facebook.com">
+          <i class="fab fa-facebook fa-2x"></i>
+        </a>
+        <a href="http://youtube.com">
+          <i class="fab fa-youtube fa-2x"></i>
+        </a>
+      </div>
+      <div>
+        <h3>Company Info</h3>
+        <ul>
+          <li><a href="#">All Products</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Blog Posts</h3>
+        <ul>
+          <li><a href="#">Lorem, ipsum dolor.</a></li>
+          <li><a href="#">Lorem, ipsum dolor.</a></li>
+          <li><a href="#">Lorem, ipsum dolor.</a></li>
+          <li><a href="#">Lorem, ipsum dolor.</a></li>
+        </ul>
+      </div>
+      <div>
+          <h3>Subscribe</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <form name="email-form" method="POST">
+            <div class="email-form">
+              <span class="form-control-wrap">
+                <input type="email" name="email" id="email" size="40" class="form-control" placeholder="Email">
+              </span>
+              <button type="submit" class="form-control submit">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="container-modal" id="container-modal">
+      <div class="form-container sign-up-container">
+        <form action="#">
+          <h1>Use Account</h1>
+          <div class="social-container">
+            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <span>or register with your email</span>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <button>Sign Up</button>
+        </form>
+      </div>
+      <div class="form-container sign-in-container">
+        <form action="#">
+          <h1>Sign in</h1>
+          <div class="social-container">
+            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <span>or use your account</span>
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <a href="#">Forgot your password?</a>
+          <button>Sign In</button>
+        </form>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay-modal">
+          <div class="overlay-panel overlay-left">
+            <h1>Welcome Back!</h1>
+            <p>To keep connected with us please login with your personal info</p>
+            <button class="ghost" id="signIn">Sign In</button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h1>Hello, Friend!</h1>
+            <p>Enter your personal details and start journey with us</p>
+            <button class="ghost" id="signUp">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  <span class="close" id="close">&times;</span>
+  </div>
+  <script src="js/main.js"></script>
   <script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous">
+  </script>
   <script src="js/simple-lightbox.min.js"></script>
   <script>
     $(function() {
       const $gallery = $('.gallery a').simpleLightbox();
     })
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 400,
+      duration: 1000
+    });
   </script>
 </body>
 </html>
